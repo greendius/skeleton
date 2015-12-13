@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+	<!-- Head -->
+	<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width">
+
+	<title>Buttons | Skeleton+</title>
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="/css/main.css">
+
+</head>
+	
+	<body id="doc">
+
+		<div id="doc-wrapper-outer">
+
+			<section class="doc-content-secondary">
+				<header id="doc-header">
+
+	<div class="content-container">
+		<h1 class="site-title"><a href="/">Skeleton+</a></h1>
+	</div>
+
+</header>
+				<nav class="doc-menu-secondary">
+	<ul class="doc-menu">
+		<li class="doc-menu__items"><a title="Buttons" href="/doc/base/" class="doc-menu__link ">Base</a></li>
+		<li class="doc-menu__items"><a title="Buttons" href="/doc/type/" class="doc-menu__link ">Type</a></li>
+		<li class="doc-menu__items"><a title="Buttons" href="/doc/layouts/" class="doc-menu__link ">Layouts</a></li>
+		<li class="doc-menu__items"><a title="Buttons" href="/doc/colors/" class="doc-menu__link ">Colors</a></li>
+	</ul>
+</nav>
+
+<nav class="doc-menu-secondary">
+	<ul class="doc-menu">
+		<li class="doc-menu__items"><a title="Buttons" href="/doc/avatars/" class="doc-menu__link ">Avatars</a></li>
+		<li class="doc-menu__items"><a title="Buttons" href="/doc/accordion/" class="doc-menu__link ">Accordion</a></li>
+		<li class="doc-menu__items"><a title="Buttons" href="/doc/buttons/" class="doc-menu__link doc-menu__link--current">Buttons</a></li>
+		<li class="doc-menu__items"><a title="Buttons" href="/doc/forms/" class="doc-menu__link ">Forms</a></li>
+		<li class="doc-menu__items"><a title="Buttons" href="/doc/font-icons/" class="doc-menu__link ">Font Icons</a></li>
+		<li class="doc-menu__items"><a title="Buttons" href="/doc/images/" class="doc-menu__link ">Images</a></li>
+		<li class="doc-menu__items"><a title="Buttons" href="/doc/list-group/" class="doc-menu__link ">List Group</a></li>
+		<li class="doc-menu__items"><a title="Buttons" href="/doc/media/" class="doc-menu__link ">Media Object</a></li>
+		<li class="doc-menu__items"><a title="Buttons" href="/doc/navigations/" class="doc-menu__link ">Navigations</a></li>
+		<li class="doc-menu__items"><a title="Buttons" href="/doc/notices/" class="doc-menu__link ">Notices</a></li>
+		<li class="doc-menu__items"><a title="Buttons" href="/doc/panels/" class="doc-menu__link ">Panels</a></li>
+		<li class="doc-menu__items"><a title="Buttons" href="/doc/misc/" class="doc-menu__link ">Misc</a></li>
+	</ul>
+</nav>
+
+
+				<footer id="doc-footer">
+
+	<div class="content-container">
+		<a href="#"><i class="icon fa fa-github"></i></a> <a href="/examples/">Html Ipsum</a>
+	</div>
+
+</footer>
+			</section>
+
+			<section id="doc-wrapper-main">
+
+				<main class="doc-content-primary">
+
+					<div class="doc-content-container">
+						<h1>Buttons</h1>
+						<blockquote cite="http://primercss.io/buttons/">
+    <p>
+        Buttons are used for actions, like in forms, while textual hyperlinks are used for destinations, or moving from one page to another.<br />
+        <em> - Primercss</em>
+    </p>
+</blockquote>
+
+<p>*** Dropdown button ***</p>
+
+<h3 class="panel-doc__heading">Default</h3>
+
+<p><input type="button" value="Input type button" />
+<input role="button" value="Input role button" />
+<button>Button</button>
+<button class="btn">button.btn</button>
+<a href="#" class="btn">a.btn</a></p>
+
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;button&quot;</span> <span class="na">value=</span><span class="s">&quot;Input type button&quot;</span> <span class="nt">/&gt;</span>
+<span class="lineno">2</span> <span class="nt">&lt;input</span> <span class="na">role=</span><span class="s">&quot;button&quot;</span> <span class="na">value=</span><span class="s">&quot;Input role button&quot;</span> <span class="nt">/&gt;</span>
+<span class="lineno">3</span> <span class="nt">&lt;button&gt;</span>Button<span class="nt">&lt;/button&gt;</span>
+<span class="lineno">4</span> <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">&quot;btn&quot;</span><span class="nt">&gt;</span>button.btn<span class="nt">&lt;/button&gt;</span>
+<span class="lineno">5</span> <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span> <span class="na">class=</span><span class="s">&quot;btn&quot;</span><span class="nt">&gt;</span>a.btn<span class="nt">&lt;/a&gt;</span></code></pre></div>
+
+
+
+<h3 class="panel-doc__heading">Options</h3>
+<button class="btn btn--primary">Primary Button</button>
+<button class="btn btn--secondary">Secondary Button</button>
+<button class="btn btn--alt">Alternate Button</button>
+
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">&quot;btn btn--primary&quot;</span><span class="nt">&gt;</span>Primary Button<span class="nt">&lt;/button&gt;</span>
+<span class="lineno">2</span> <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">&quot;btn btn--secondary&quot;</span><span class="nt">&gt;</span>Secondary Button<span class="nt">&lt;/button&gt;</span>
+<span class="lineno">3</span> <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">&quot;btn btn--alt&quot;</span><span class="nt">&gt;</span>Alternate Button<span class="nt">&lt;/button&gt;</span></code></pre></div>
+
+
+
+<h3 class="panel-doc__heading">Sizes</h3>
+<button class="btn btn--small">Small Button</button>
+<button class="btn">Standard Button</button>
+<button class="btn btn--large">Large Button</button>
+<button class="btn btn--xlarge">XLarge Button</button>
+
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">&quot;btn btn--small&quot;</span><span class="nt">&gt;</span>Small Button<span class="nt">&lt;/button&gt;</span>
+<span class="lineno">2</span> <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">&quot;btn&quot;</span><span class="nt">&gt;</span>Standard Button<span class="nt">&lt;/button&gt;</span>
+<span class="lineno">3</span> <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">&quot;btn btn--large&quot;</span><span class="nt">&gt;</span>Large Button<span class="nt">&lt;/button&gt;</span>
+<span class="lineno">4</span> <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">&quot;btn btn--xlarge&quot;</span><span class="nt">&gt;</span>XLarge Button<span class="nt">&lt;/button&gt;</span></code></pre></div>
+
+
+
+<h3 class="panel-doc__heading">Disabled</h3>
+<button class="btn" disabled="disabled">Primary Button</button>
+<button class="btn btn--primary" disabled="disabled">Primary Button</button>
+<button class="btn btn--secondary" disabled="disabled">Secondary Button</button>
+<button class="btn btn--alt" disabled="disabled">Alternate Button</button>
+
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">&quot;btn&quot;</span> <span class="na">disabled=</span><span class="s">&quot;disabled&quot;</span><span class="nt">&gt;</span>Primary Button<span class="nt">&lt;/button&gt;</span>
+<span class="lineno">2</span> <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">&quot;btn btn--primary&quot;</span> <span class="na">disabled=</span><span class="s">&quot;disabled&quot;</span><span class="nt">&gt;</span>Primary Button<span class="nt">&lt;/button&gt;</span>
+<span class="lineno">3</span> <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">&quot;btn btn--secondary&quot;</span> <span class="na">disabled=</span><span class="s">&quot;disabled&quot;</span><span class="nt">&gt;</span>Secondary Button<span class="nt">&lt;/button&gt;</span>
+<span class="lineno">4</span> <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">&quot;btn btn--alt&quot;</span> <span class="na">disabled=</span><span class="s">&quot;disabled&quot;</span><span class="nt">&gt;</span>Alternate Button<span class="nt">&lt;/button&gt;</span></code></pre></div>
+
+
+
+<h3 class="panel-doc__heading">Dropdown button</h3>
+dropdown button
+
+
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> dropdown button</code></pre></div>
+
+
+<h3 class="panel-doc__heading">Button group</h3>
+<div class="btn-group" role="group" aria-label="">
+    <button type="button" class="btn-group__btn">Left</button>
+    <button type="button" class="btn-group__btn">Middle</button>
+    <button type="button" class="btn-group__btn">Right</button>
+</div>
+
+<div class="btn-group" role="group" aria-label="">
+    <button type="button" class="btn-group__btn"><i class="fa fa-align-left"></i></button>
+    <button type="button" class="btn-group__btn"><i class="fa fa-align-center"></i></button>
+    <button type="button" class="btn-group__btn"><i class="fa fa-align-right"></i></button>
+    <button type="button" class="btn-group__btn"><i class="fa fa-align-justify"></i></button>
+    <button type="button" class="btn-group__btn"><i class="fa fa-font"></i></button>
+</div>
+
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno"> 1</span> <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;btn-group&quot;</span> <span class="na">role=</span><span class="s">&quot;group&quot;</span> <span class="na">aria-label=</span><span class="s">&quot;&quot;</span><span class="nt">&gt;</span>
+<span class="lineno"> 2</span>  <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">&quot;button&quot;</span> <span class="na">class=</span><span class="s">&quot;btn-group__btn&quot;</span><span class="nt">&gt;</span>Left<span class="nt">&lt;/button&gt;</span>
+<span class="lineno"> 3</span>  <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">&quot;button&quot;</span> <span class="na">class=</span><span class="s">&quot;btn-group__btn&quot;</span><span class="nt">&gt;</span>Middle<span class="nt">&lt;/button&gt;</span>
+<span class="lineno"> 4</span>  <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">&quot;button&quot;</span> <span class="na">class=</span><span class="s">&quot;btn-group__btn&quot;</span><span class="nt">&gt;</span>Right<span class="nt">&lt;/button&gt;</span>
+<span class="lineno"> 5</span> <span class="nt">&lt;/div&gt;</span>
+<span class="lineno"> 6</span> 
+<span class="lineno"> 7</span> <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;btn-group&quot;</span> <span class="na">role=</span><span class="s">&quot;group&quot;</span> <span class="na">aria-label=</span><span class="s">&quot;&quot;</span><span class="nt">&gt;</span>
+<span class="lineno"> 8</span>  <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">&quot;button&quot;</span> <span class="na">class=</span><span class="s">&quot;btn-group__btn&quot;</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">&quot;fa fa-align-left&quot;</span><span class="nt">&gt;&lt;/i&gt;&lt;/button&gt;</span>
+<span class="lineno"> 9</span>  <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">&quot;button&quot;</span> <span class="na">class=</span><span class="s">&quot;btn-group__btn&quot;</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">&quot;fa fa-align-center&quot;</span><span class="nt">&gt;&lt;/i&gt;&lt;/button&gt;</span>
+<span class="lineno">10</span>  <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">&quot;button&quot;</span> <span class="na">class=</span><span class="s">&quot;btn-group__btn&quot;</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">&quot;fa fa-align-right&quot;</span><span class="nt">&gt;&lt;/i&gt;&lt;/button&gt;</span>
+<span class="lineno">11</span>  <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">&quot;button&quot;</span> <span class="na">class=</span><span class="s">&quot;btn-group__btn&quot;</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">&quot;fa fa-align-justify&quot;</span><span class="nt">&gt;&lt;/i&gt;&lt;/button&gt;</span>
+<span class="lineno">12</span>  <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">&quot;button&quot;</span> <span class="na">class=</span><span class="s">&quot;btn-group__btn&quot;</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">&quot;fa fa-font&quot;</span><span class="nt">&gt;&lt;/i&gt;&lt;/button&gt;</span>
+<span class="lineno">13</span> <span class="nt">&lt;/div&gt;</span></code></pre></div>
+
+
+						<!-- <p id="1@#%^-bottom">
+							<a data-scroll data-options='{ "easing": "easeOutCubic" }' href="#doc"><i class="fa fa-arrow-up"></i> Back to the top</a>
+						</p> -->
+						<a href="#" class="scrollup"><i class="fa fa-arrow-up"></i></a>
+					</div>
+
+				</main><!-- /.doc-content-container -->
+				
+			</section><!-- /#wrapper-main -->
+
+		</div><!-- /#wrapper-outer -->
+
+		<!-- Javascript -->
+		<!-- Vendor minified JS -->
+<script src="/js/vendor.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+
+<!-- Custom minified JS -->
+<script src="/js/script.js"></script>
+
+<!-- https://github.com/cferdinandi/smooth-scroll -->
+<!-- <script>
+smoothScroll.init({
+	selector: '[data-scroll]', // Selector for links (must be a valid CSS selector)
+	selectorHeader: '[data-scroll-header]', // Selector for fixed headers (must be a valid CSS selector)
+	speed: 800, // Integer. How fast to complete the scroll in milliseconds
+	easing: 'easeInOutCubic', // Easing pattern to use
+	updateURL: true, // Boolean. Whether or not to update the URL with the anchor hash on scroll
+	offset: 0, // Integer. How far to offset the scrolling anchor location in pixels
+	callback: function ( toggle, anchor ) {} // Function to run after scrolling
+});
+</script> -->
+
+
+<!-- http://jsfiddle.net/neeklamy/RpPEe/ -->
+<script>
+$(document).ready(function () {
+
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $('.scrollup').fadeIn();
+        } else {
+            $('.scrollup').fadeOut();
+        }
+    });
+
+    $('.scrollup').click(function () {
+        $("html, body").animate({
+            scrollTop: 0
+        }, 600);
+        return false;
+    });
+
+});
+</script>
+
+	</body>
+</html>

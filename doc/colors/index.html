@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+	<!-- Head -->
+	<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width">
+
+	<title>Color | Skeleton+</title>
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="/css/main.css">
+
+</head>
+	
+	<body id="doc">
+
+		<div id="doc-wrapper-outer">
+
+			<section class="doc-content-secondary">
+				<header id="doc-header">
+
+	<div class="content-container">
+		<h1 class="site-title"><a href="/">Skeleton+</a></h1>
+	</div>
+
+</header>
+				<nav class="doc-menu-secondary">
+	<ul class="doc-menu">
+		<li class="doc-menu__items"><a title="Color" href="/doc/base/" class="doc-menu__link ">Base</a></li>
+		<li class="doc-menu__items"><a title="Color" href="/doc/type/" class="doc-menu__link ">Type</a></li>
+		<li class="doc-menu__items"><a title="Color" href="/doc/layouts/" class="doc-menu__link ">Layouts</a></li>
+		<li class="doc-menu__items"><a title="Color" href="/doc/colors/" class="doc-menu__link doc-menu__link--current">Colors</a></li>
+	</ul>
+</nav>
+
+<nav class="doc-menu-secondary">
+	<ul class="doc-menu">
+		<li class="doc-menu__items"><a title="Color" href="/doc/avatars/" class="doc-menu__link ">Avatars</a></li>
+		<li class="doc-menu__items"><a title="Color" href="/doc/accordion/" class="doc-menu__link ">Accordion</a></li>
+		<li class="doc-menu__items"><a title="Color" href="/doc/buttons/" class="doc-menu__link ">Buttons</a></li>
+		<li class="doc-menu__items"><a title="Color" href="/doc/forms/" class="doc-menu__link ">Forms</a></li>
+		<li class="doc-menu__items"><a title="Color" href="/doc/font-icons/" class="doc-menu__link ">Font Icons</a></li>
+		<li class="doc-menu__items"><a title="Color" href="/doc/images/" class="doc-menu__link ">Images</a></li>
+		<li class="doc-menu__items"><a title="Color" href="/doc/list-group/" class="doc-menu__link ">List Group</a></li>
+		<li class="doc-menu__items"><a title="Color" href="/doc/media/" class="doc-menu__link ">Media Object</a></li>
+		<li class="doc-menu__items"><a title="Color" href="/doc/navigations/" class="doc-menu__link ">Navigations</a></li>
+		<li class="doc-menu__items"><a title="Color" href="/doc/notices/" class="doc-menu__link ">Notices</a></li>
+		<li class="doc-menu__items"><a title="Color" href="/doc/panels/" class="doc-menu__link ">Panels</a></li>
+		<li class="doc-menu__items"><a title="Color" href="/doc/misc/" class="doc-menu__link ">Misc</a></li>
+	</ul>
+</nav>
+
+
+				<footer id="doc-footer">
+
+	<div class="content-container">
+		<a href="#"><i class="icon fa fa-github"></i></a> <a href="/examples/">Html Ipsum</a>
+	</div>
+
+</footer>
+			</section>
+
+			<section id="doc-wrapper-main">
+
+				<main class="doc-content-primary">
+
+					<div class="doc-content-container">
+						<h1>Color</h1>
+						<p class="lead">
+    Unique colors combination used in project.
+</p>
+
+<h3 class="panel-doc__heading">Color</h3>
+
+<div>
+    <div class="demo-color demo-color--primary">
+        <p>.primary-color</p>
+    </div>
+    <div class="demo-color demo-color--secondary">
+        <p>.secondary-color</p>
+    </div>
+    <div class="demo-color demo-color--alt">
+        <p>.alt-color</p>
+    </div>
+</div>
+
+<div>
+    <div class="demo-color demo-color--bg-color">
+        <p>.bg-color</p>
+    </div>
+    <div class="demo-color demo-color--bg-secondary-color">
+        <p>.bg-secondary-color</p>
+    </div>
+</div>
+
+
+						<!-- <p id="1@#%^-bottom">
+							<a data-scroll data-options='{ "easing": "easeOutCubic" }' href="#doc"><i class="fa fa-arrow-up"></i> Back to the top</a>
+						</p> -->
+						<a href="#" class="scrollup"><i class="fa fa-arrow-up"></i></a>
+					</div>
+
+				</main><!-- /.doc-content-container -->
+				
+			</section><!-- /#wrapper-main -->
+
+		</div><!-- /#wrapper-outer -->
+
+		<!-- Javascript -->
+		<!-- Vendor minified JS -->
+<script src="/js/vendor.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+
+<!-- Custom minified JS -->
+<script src="/js/script.js"></script>
+
+<!-- https://github.com/cferdinandi/smooth-scroll -->
+<!-- <script>
+smoothScroll.init({
+	selector: '[data-scroll]', // Selector for links (must be a valid CSS selector)
+	selectorHeader: '[data-scroll-header]', // Selector for fixed headers (must be a valid CSS selector)
+	speed: 800, // Integer. How fast to complete the scroll in milliseconds
+	easing: 'easeInOutCubic', // Easing pattern to use
+	updateURL: true, // Boolean. Whether or not to update the URL with the anchor hash on scroll
+	offset: 0, // Integer. How far to offset the scrolling anchor location in pixels
+	callback: function ( toggle, anchor ) {} // Function to run after scrolling
+});
+</script> -->
+
+
+<!-- http://jsfiddle.net/neeklamy/RpPEe/ -->
+<script>
+$(document).ready(function () {
+
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $('.scrollup').fadeIn();
+        } else {
+            $('.scrollup').fadeOut();
+        }
+    });
+
+    $('.scrollup').click(function () {
+        $("html, body").animate({
+            scrollTop: 0
+        }, 600);
+        return false;
+    });
+
+});
+</script>
+
+	</body>
+</html>

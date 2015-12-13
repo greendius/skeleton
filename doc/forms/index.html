@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+
+	<!-- Head -->
+	<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width">
+
+	<title>Forms | Skeleton+</title>
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="/css/main.css">
+
+</head>
+	
+	<body id="doc">
+
+		<div id="doc-wrapper-outer">
+
+			<section class="doc-content-secondary">
+				<header id="doc-header">
+
+	<div class="content-container">
+		<h1 class="site-title"><a href="/">Skeleton+</a></h1>
+	</div>
+
+</header>
+				<nav class="doc-menu-secondary">
+	<ul class="doc-menu">
+		<li class="doc-menu__items"><a title="Forms" href="/doc/base/" class="doc-menu__link ">Base</a></li>
+		<li class="doc-menu__items"><a title="Forms" href="/doc/type/" class="doc-menu__link ">Type</a></li>
+		<li class="doc-menu__items"><a title="Forms" href="/doc/layouts/" class="doc-menu__link ">Layouts</a></li>
+		<li class="doc-menu__items"><a title="Forms" href="/doc/colors/" class="doc-menu__link ">Colors</a></li>
+	</ul>
+</nav>
+
+<nav class="doc-menu-secondary">
+	<ul class="doc-menu">
+		<li class="doc-menu__items"><a title="Forms" href="/doc/avatars/" class="doc-menu__link ">Avatars</a></li>
+		<li class="doc-menu__items"><a title="Forms" href="/doc/accordion/" class="doc-menu__link ">Accordion</a></li>
+		<li class="doc-menu__items"><a title="Forms" href="/doc/buttons/" class="doc-menu__link ">Buttons</a></li>
+		<li class="doc-menu__items"><a title="Forms" href="/doc/forms/" class="doc-menu__link doc-menu__link--current">Forms</a></li>
+		<li class="doc-menu__items"><a title="Forms" href="/doc/font-icons/" class="doc-menu__link ">Font Icons</a></li>
+		<li class="doc-menu__items"><a title="Forms" href="/doc/images/" class="doc-menu__link ">Images</a></li>
+		<li class="doc-menu__items"><a title="Forms" href="/doc/list-group/" class="doc-menu__link ">List Group</a></li>
+		<li class="doc-menu__items"><a title="Forms" href="/doc/media/" class="doc-menu__link ">Media Object</a></li>
+		<li class="doc-menu__items"><a title="Forms" href="/doc/navigations/" class="doc-menu__link ">Navigations</a></li>
+		<li class="doc-menu__items"><a title="Forms" href="/doc/notices/" class="doc-menu__link ">Notices</a></li>
+		<li class="doc-menu__items"><a title="Forms" href="/doc/panels/" class="doc-menu__link ">Panels</a></li>
+		<li class="doc-menu__items"><a title="Forms" href="/doc/misc/" class="doc-menu__link ">Misc</a></li>
+	</ul>
+</nav>
+
+
+				<footer id="doc-footer">
+
+	<div class="content-container">
+		<a href="#"><i class="icon fa fa-github"></i></a> <a href="/examples/">Html Ipsum</a>
+	</div>
+
+</footer>
+			</section>
+
+			<section id="doc-wrapper-main">
+
+				<main class="doc-content-primary">
+
+					<div class="doc-content-container">
+						<h1>Forms</h1>
+						<p class="lead">
+    Style individual form controls and utilize common layouts. 
+</p>
+
+<h3 class="panel-doc__heading">Default</h3>
+
+<form action="#" method="post">
+
+    <div>
+        <h4>Text input</h4>
+        <label for="name">Label text:</label>
+        <input type="text" name="name" id="name" placeholder="Placeholder text" />
+    </div>
+
+    <div>
+        <h4>Search</h4>
+        <label for="name">Search label:</label>
+        <input type="search" name="search" id="search" placeholder="Type to search" />
+    </div>
+
+    <div>
+        <h4>Radio Button</h4>
+        <input type="radio" name="radio-choice-1" id="radio-choice-1" tabindex="2" value="choice-1" />
+        <label for="radio-choice-1">Label 1</label>
+
+        <input type="radio" name="radio-choice-2" id="radio-choice-2" tabindex="3" value="choice-2" />
+        <label for="radio-choice-2">Label 2</label>
+    </div>
+
+    <div>
+        <h4>Checkbox</h4>
+        <input type="checkbox" name="checkbox" id="checkbox" />
+        <label for="checkbox">Checkbox label:</label>
+    </div>
+
+    <div>
+        <h4>Textarea</h4>
+        <label for="textarea">Textarea label:</label>
+        <textarea cols="40" rows="8" name="textarea" id="textarea"></textarea>
+    </div>
+
+    <div>
+        <h4>Submit button</h4>
+        <input type="submit" value="Submit" />
+    </div>
+
+    <div>
+        <label for="select-choice">Select:</label>
+        <select name="select-choice" id="select-choice">
+            <option value="Choice 1">Option 1</option>
+            <option value="Choice 2">Option 2</option>
+            <option value="Choice 3">Option 3</option>
+        </select>
+    </div>
+
+</form>
+
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno"> 1</span> <span class="nt">&lt;form</span> <span class="na">action=</span><span class="s">&quot;#&quot;</span> <span class="na">method=</span><span class="s">&quot;post&quot;</span><span class="nt">&gt;</span>
+<span class="lineno"> 2</span> 
+<span class="lineno"> 3</span>  <span class="nt">&lt;div&gt;</span>
+<span class="lineno"> 4</span>      <span class="nt">&lt;h4&gt;</span>Text input<span class="nt">&lt;/h4&gt;</span>
+<span class="lineno"> 5</span>      <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;name&quot;</span><span class="nt">&gt;</span>Label text:<span class="nt">&lt;/label&gt;</span>
+<span class="lineno"> 6</span>      <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;text&quot;</span> <span class="na">name=</span><span class="s">&quot;name&quot;</span> <span class="na">id=</span><span class="s">&quot;name&quot;</span> <span class="na">placeholder=</span><span class="s">&quot;Placeholder text&quot;</span> <span class="nt">/&gt;</span>
+<span class="lineno"> 7</span>  <span class="nt">&lt;/div&gt;</span>
+<span class="lineno"> 8</span> 
+<span class="lineno"> 9</span>  <span class="nt">&lt;div&gt;</span>
+<span class="lineno">10</span>      <span class="nt">&lt;h4&gt;</span>Search<span class="nt">&lt;/h4&gt;</span>
+<span class="lineno">11</span>      <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;name&quot;</span><span class="nt">&gt;</span>Search label:<span class="nt">&lt;/label&gt;</span>
+<span class="lineno">12</span>      <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;search&quot;</span> <span class="na">name=</span><span class="s">&quot;search&quot;</span> <span class="na">id=</span><span class="s">&quot;search&quot;</span> <span class="na">placeholder=</span><span class="s">&quot;Type to search&quot;</span> <span class="nt">/&gt;</span>
+<span class="lineno">13</span>  <span class="nt">&lt;/div&gt;</span>
+<span class="lineno">14</span> 
+<span class="lineno">15</span>  <span class="nt">&lt;div&gt;</span>
+<span class="lineno">16</span>      <span class="nt">&lt;h4&gt;</span>Radio Button<span class="nt">&lt;/h4&gt;</span>
+<span class="lineno">17</span>      <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;radio&quot;</span> <span class="na">name=</span><span class="s">&quot;radio-choice-1&quot;</span> <span class="na">id=</span><span class="s">&quot;radio-choice-1&quot;</span> <span class="na">tabindex=</span><span class="s">&quot;2&quot;</span> <span class="na">value=</span><span class="s">&quot;choice-1&quot;</span> <span class="nt">/&gt;</span>
+<span class="lineno">18</span>      <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;radio-choice-1&quot;</span><span class="nt">&gt;</span>Label 1<span class="nt">&lt;/label&gt;</span>
+<span class="lineno">19</span> 
+<span class="lineno">20</span>      <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;radio&quot;</span> <span class="na">name=</span><span class="s">&quot;radio-choice-2&quot;</span> <span class="na">id=</span><span class="s">&quot;radio-choice-2&quot;</span> <span class="na">tabindex=</span><span class="s">&quot;3&quot;</span> <span class="na">value=</span><span class="s">&quot;choice-2&quot;</span> <span class="nt">/&gt;</span>
+<span class="lineno">21</span>      <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;radio-choice-2&quot;</span><span class="nt">&gt;</span>Label 2<span class="nt">&lt;/label&gt;</span>
+<span class="lineno">22</span>  <span class="nt">&lt;/div&gt;</span>
+<span class="lineno">23</span> 
+<span class="lineno">24</span>  <span class="nt">&lt;div&gt;</span>
+<span class="lineno">25</span>      <span class="nt">&lt;h4&gt;</span>Checkbox<span class="nt">&lt;/h4&gt;</span>
+<span class="lineno">26</span>      <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;checkbox&quot;</span> <span class="na">name=</span><span class="s">&quot;checkbox&quot;</span> <span class="na">id=</span><span class="s">&quot;checkbox&quot;</span> <span class="nt">/&gt;</span>
+<span class="lineno">27</span>      <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;checkbox&quot;</span><span class="nt">&gt;</span>Checkbox label:<span class="nt">&lt;/label&gt;</span>
+<span class="lineno">28</span>  <span class="nt">&lt;/div&gt;</span>
+<span class="lineno">29</span> 
+<span class="lineno">30</span>  <span class="nt">&lt;div&gt;</span>
+<span class="lineno">31</span>      <span class="nt">&lt;h4&gt;</span>Textarea<span class="nt">&lt;/h4&gt;</span>
+<span class="lineno">32</span>      <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;textarea&quot;</span><span class="nt">&gt;</span>Textarea label:<span class="nt">&lt;/label&gt;</span>
+<span class="lineno">33</span>      <span class="nt">&lt;textarea</span> <span class="na">cols=</span><span class="s">&quot;40&quot;</span> <span class="na">rows=</span><span class="s">&quot;8&quot;</span> <span class="na">name=</span><span class="s">&quot;textarea&quot;</span> <span class="na">id=</span><span class="s">&quot;textarea&quot;</span><span class="nt">&gt;&lt;/textarea&gt;</span>
+<span class="lineno">34</span>  <span class="nt">&lt;/div&gt;</span>
+<span class="lineno">35</span> 
+<span class="lineno">36</span>  <span class="nt">&lt;div&gt;</span>
+<span class="lineno">37</span>      <span class="nt">&lt;h4&gt;</span>Submit button<span class="nt">&lt;/h4&gt;</span>
+<span class="lineno">38</span>      <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;submit&quot;</span> <span class="na">value=</span><span class="s">&quot;Submit&quot;</span> <span class="nt">/&gt;</span>
+<span class="lineno">39</span>  <span class="nt">&lt;/div&gt;</span>
+<span class="lineno">40</span> 
+<span class="lineno">41</span>  <span class="nt">&lt;div&gt;</span>
+<span class="lineno">42</span>      <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;select-choice&quot;</span><span class="nt">&gt;</span>Select:<span class="nt">&lt;/label&gt;</span>
+<span class="lineno">43</span>      <span class="nt">&lt;select</span> <span class="na">name=</span><span class="s">&quot;select-choice&quot;</span> <span class="na">id=</span><span class="s">&quot;select-choice&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">44</span>          <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">&quot;Choice 1&quot;</span><span class="nt">&gt;</span>Option 1<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">45</span>          <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">&quot;Choice 2&quot;</span><span class="nt">&gt;</span>Option 2<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">46</span>          <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">&quot;Choice 3&quot;</span><span class="nt">&gt;</span>Option 3<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">47</span>      <span class="nt">&lt;/select&gt;</span>
+<span class="lineno">48</span>  <span class="nt">&lt;/div&gt;</span>
+<span class="lineno">49</span> 
+<span class="lineno">50</span> <span class="nt">&lt;/form&gt;</span></code></pre></div>
+
+
+
+<h3 class="panel-doc__heading">Input groups</h3>
+<div class="input-group">
+    <span class="input-group__addon" id="basic-addon1">@</span>
+    <input type="text" class="input-group__field" placeholder="Username" />
+</div>
+
+<div class="input-group">
+    <input type="text" class="input-group__field" placeholder="Recipient's username" aria-describedby="basic-addon2" />
+    <span class="input-group__addon" id="basic-addon2">@example.com</span>
+</div>
+
+<div class="input-group">
+    <span class="input-group__addon">$</span>
+    <input type="text" class="input-group__field" />
+    <span class="input-group__addon">.00</span>
+</div>
+
+<div class="input-group">
+    <span class="input-group__addon" id="basic-addon3">https://example.com/users/</span>
+    <input type="text" class="input-group__field" />
+</div>
+
+<h3 class="panel-doc__heading">Input groups with button</h3>
+
+<div class="input-group-btn">
+    <input type="text" class="input-group-btn__field" />
+    <input type="submit" value="Search" class="input-group-btn__btn" />
+</div>
+
+<div class="input-group-btn">
+    <input type="text" class="input-group-btn__field" />
+    <input type="submit" name="search" value="Search" class="input-group-btn__btn input-group-btn__btn--primary" />
+</div>
+
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno"> 1</span> <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;input-group&quot;</span><span class="nt">&gt;</span>
+<span class="lineno"> 2</span>  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;input-group__addon&quot;</span> <span class="na">id=</span><span class="s">&quot;basic-addon1&quot;</span><span class="nt">&gt;</span>@<span class="nt">&lt;/span&gt;</span>
+<span class="lineno"> 3</span>  <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;text&quot;</span> <span class="na">class=</span><span class="s">&quot;input-group__field&quot;</span> <span class="na">placeholder=</span><span class="s">&quot;Username&quot;</span> <span class="nt">/&gt;</span>
+<span class="lineno"> 4</span> <span class="nt">&lt;/div&gt;</span>
+<span class="lineno"> 5</span> 
+<span class="lineno"> 6</span> <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;input-group&quot;</span><span class="nt">&gt;</span>
+<span class="lineno"> 7</span>  <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;text&quot;</span> <span class="na">class=</span><span class="s">&quot;input-group__field&quot;</span> <span class="na">placeholder=</span><span class="s">&quot;Recipient&#39;s username&quot;</span> <span class="na">aria-describedby=</span><span class="s">&quot;basic-addon2&quot;</span> <span class="nt">/&gt;</span>
+<span class="lineno"> 8</span>  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;input-group__addon&quot;</span> <span class="na">id=</span><span class="s">&quot;basic-addon2&quot;</span><span class="nt">&gt;</span>@example.com<span class="nt">&lt;/span&gt;</span>
+<span class="lineno"> 9</span> <span class="nt">&lt;/div&gt;</span>
+<span class="lineno">10</span> 
+<span class="lineno">11</span> <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;input-group&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">12</span>  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;input-group__addon&quot;</span><span class="nt">&gt;</span>$<span class="nt">&lt;/span&gt;</span>
+<span class="lineno">13</span>  <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;text&quot;</span> <span class="na">class=</span><span class="s">&quot;input-group__field&quot;</span> <span class="nt">/&gt;</span>
+<span class="lineno">14</span>  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;input-group__addon&quot;</span><span class="nt">&gt;</span>.00<span class="nt">&lt;/span&gt;</span>
+<span class="lineno">15</span> <span class="nt">&lt;/div&gt;</span>
+<span class="lineno">16</span> 
+<span class="lineno">17</span> <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;input-group&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">18</span>  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;input-group__addon&quot;</span> <span class="na">id=</span><span class="s">&quot;basic-addon3&quot;</span><span class="nt">&gt;</span>https://example.com/users/<span class="nt">&lt;/span&gt;</span>
+<span class="lineno">19</span>  <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;text&quot;</span> <span class="na">class=</span><span class="s">&quot;input-group__field&quot;</span> <span class="nt">/&gt;</span>
+<span class="lineno">20</span> <span class="nt">&lt;/div&gt;</span>
+<span class="lineno">21</span> 
+<span class="lineno">22</span> <span class="nt">&lt;h3</span> <span class="na">class=</span><span class="s">&quot;panel-doc__heading&quot;</span><span class="nt">&gt;</span>Input groups with button<span class="nt">&lt;/h3&gt;</span>
+<span class="lineno">23</span> <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;input-group-btn&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">24</span>  <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;text&quot;</span> <span class="na">class=</span><span class="s">&quot;input-group-btn__field&quot;</span> <span class="nt">/&gt;</span>
+<span class="lineno">25</span>  <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;submit&quot;</span> <span class="na">value=</span><span class="s">&quot;Search&quot;</span> <span class="na">class=</span><span class="s">&quot;input-group-btn__btn&quot;</span> <span class="nt">/&gt;</span>
+<span class="lineno">26</span> <span class="nt">&lt;/div&gt;</span>
+<span class="lineno">27</span> 
+<span class="lineno">28</span> <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;input-group-btn&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">29</span>  <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;text&quot;</span> <span class="na">class=</span><span class="s">&quot;input-group-btn__field&quot;</span> <span class="nt">/&gt;</span>
+<span class="lineno">30</span>  <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;submit&quot;</span> <span class="na">name=</span><span class="s">&quot;search&quot;</span> <span class="na">value=</span><span class="s">&quot;Search&quot;</span> <span class="na">class=</span><span class="s">&quot;input-group-btn__btn input-group-btn__btn--primary&quot;</span> <span class="nt">/&gt;</span>
+<span class="lineno">31</span> <span class="nt">&lt;/div&gt;</span></code></pre></div>
+
+
+
+<h3 class="panel-doc__heading">Form layout example</h3>
+<div class="notice-message">
+    <div class="notice notice--warning">
+        <p>Always set the form's <code>width</code> to <code>100%</code>, and control the layout with grids or columns.</p>
+    </div>
+</div>
+
+<form id="doc-form">
+    <div class="l-col l-col-2">
+        <div class="col">
+            <label for="name">Label text:</label>
+            <input type="text" name="name" id="name" placeholder="Placeholder text" />
+        </div>
+        <div class="col">
+            <label for="name">Label text:</label>
+            <input type="text" name="name" id="name" placeholder="Placeholder text" />
+        </div>
+        <div class="col">
+            <label for="textarea">Textarea label:</label>
+            <textarea cols="40" rows="8" name="textarea" id="textarea"></textarea>
+            <input type="submit" value="Submit" class="btn btn--primary" />
+        </div>
+    </div>
+</form>
+
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno"> 1</span> <span class="nt">&lt;form</span> <span class="na">id=</span><span class="s">&quot;doc-form&quot;</span><span class="nt">&gt;</span>
+<span class="lineno"> 2</span>  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;l-col l-col-2&quot;</span><span class="nt">&gt;</span>
+<span class="lineno"> 3</span>      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;col&quot;</span><span class="nt">&gt;</span>
+<span class="lineno"> 4</span>          <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;name&quot;</span><span class="nt">&gt;</span>Label text:<span class="nt">&lt;/label&gt;</span>
+<span class="lineno"> 5</span>          <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;text&quot;</span> <span class="na">name=</span><span class="s">&quot;name&quot;</span> <span class="na">id=</span><span class="s">&quot;name&quot;</span> <span class="na">placeholder=</span><span class="s">&quot;Placeholder text&quot;</span> <span class="nt">/&gt;</span>
+<span class="lineno"> 6</span>      <span class="nt">&lt;/div&gt;</span>
+<span class="lineno"> 7</span>      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;col&quot;</span><span class="nt">&gt;</span>
+<span class="lineno"> 8</span>          <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;name&quot;</span><span class="nt">&gt;</span>Label text:<span class="nt">&lt;/label&gt;</span>
+<span class="lineno"> 9</span>          <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;text&quot;</span> <span class="na">name=</span><span class="s">&quot;name&quot;</span> <span class="na">id=</span><span class="s">&quot;name&quot;</span> <span class="na">placeholder=</span><span class="s">&quot;Placeholder text&quot;</span> <span class="nt">/&gt;</span>
+<span class="lineno">10</span>      <span class="nt">&lt;/div&gt;</span>
+<span class="lineno">11</span>      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;col&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">12</span>          <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;textarea&quot;</span><span class="nt">&gt;</span>Textarea label:<span class="nt">&lt;/label&gt;</span>
+<span class="lineno">13</span>          <span class="nt">&lt;textarea</span> <span class="na">cols=</span><span class="s">&quot;40&quot;</span> <span class="na">rows=</span><span class="s">&quot;8&quot;</span> <span class="na">name=</span><span class="s">&quot;textarea&quot;</span> <span class="na">id=</span><span class="s">&quot;textarea&quot;</span><span class="nt">&gt;&lt;/textarea&gt;</span>
+<span class="lineno">14</span>          <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;submit&quot;</span> <span class="na">value=</span><span class="s">&quot;Submit&quot;</span> <span class="na">class=</span><span class="s">&quot;btn btn--primary&quot;</span> <span class="nt">/&gt;</span>
+<span class="lineno">15</span>      <span class="nt">&lt;/div&gt;</span>
+<span class="lineno">16</span>  <span class="nt">&lt;/div&gt;</span>
+<span class="lineno">17</span> <span class="nt">&lt;/form&gt;</span></code></pre></div>
+
+
+						<!-- <p id="1@#%^-bottom">
+							<a data-scroll data-options='{ "easing": "easeOutCubic" }' href="#doc"><i class="fa fa-arrow-up"></i> Back to the top</a>
+						</p> -->
+						<a href="#" class="scrollup"><i class="fa fa-arrow-up"></i></a>
+					</div>
+
+				</main><!-- /.doc-content-container -->
+				
+			</section><!-- /#wrapper-main -->
+
+		</div><!-- /#wrapper-outer -->
+
+		<!-- Javascript -->
+		<!-- Vendor minified JS -->
+<script src="/js/vendor.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+
+<!-- Custom minified JS -->
+<script src="/js/script.js"></script>
+
+<!-- https://github.com/cferdinandi/smooth-scroll -->
+<!-- <script>
+smoothScroll.init({
+	selector: '[data-scroll]', // Selector for links (must be a valid CSS selector)
+	selectorHeader: '[data-scroll-header]', // Selector for fixed headers (must be a valid CSS selector)
+	speed: 800, // Integer. How fast to complete the scroll in milliseconds
+	easing: 'easeInOutCubic', // Easing pattern to use
+	updateURL: true, // Boolean. Whether or not to update the URL with the anchor hash on scroll
+	offset: 0, // Integer. How far to offset the scrolling anchor location in pixels
+	callback: function ( toggle, anchor ) {} // Function to run after scrolling
+});
+</script> -->
+
+
+<!-- http://jsfiddle.net/neeklamy/RpPEe/ -->
+<script>
+$(document).ready(function () {
+
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $('.scrollup').fadeIn();
+        } else {
+            $('.scrollup').fadeOut();
+        }
+    });
+
+    $('.scrollup').click(function () {
+        $("html, body").animate({
+            scrollTop: 0
+        }, 600);
+        return false;
+    });
+
+});
+</script>
+
+	</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+	<!-- Head -->
+	<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width">
+
+	<title>Skeleton | Skeleton+</title>
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="/css/main.css">
+
+</head>
+	
+	<body id="skeleton">
+
+		<div id="skeleton-wrapper-outer" class="l-skeleton">			
+
+			<section id="skeleton-wrapper-main">
+
+				<main class="skeleton-content">
+
+					<div class="skeleton-content-container">
+						<h1 id="skeleton-logo">Skeleton+</h1>
+						<div class="skeleton-intro">
+	<p>The minimal, clean and simple HTML/CSS and web components for boost-up the new site.</p>
+	<a class="btn btn--outline btn--xlarge" href="/doc/base/">Documentation</a>
+</div>
+
+<div class="skeleton-links">
+	<a href="#"><i class="fa fa-github"></i></a>
+	<a href="#"><i class="fa fa-twitter"></i></a>
+	<br />
+	<small class="muted">version : alpha</small>
+</div>
+
+
+					</div>
+
+				</main><!-- /.doc-content-container -->
+				
+			</section><!-- /#wrapper-main -->
+
+		</div><!-- /#wrapper-outer -->
+
+		<!-- Javascript -->
+		<!-- Vendor minified JS -->
+<script src="/js/vendor.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+
+<!-- Custom minified JS -->
+<script src="/js/script.js"></script>
+
+<!-- https://github.com/cferdinandi/smooth-scroll -->
+<!-- <script>
+smoothScroll.init({
+	selector: '[data-scroll]', // Selector for links (must be a valid CSS selector)
+	selectorHeader: '[data-scroll-header]', // Selector for fixed headers (must be a valid CSS selector)
+	speed: 800, // Integer. How fast to complete the scroll in milliseconds
+	easing: 'easeInOutCubic', // Easing pattern to use
+	updateURL: true, // Boolean. Whether or not to update the URL with the anchor hash on scroll
+	offset: 0, // Integer. How far to offset the scrolling anchor location in pixels
+	callback: function ( toggle, anchor ) {} // Function to run after scrolling
+});
+</script> -->
+
+
+<!-- http://jsfiddle.net/neeklamy/RpPEe/ -->
+<script>
+$(document).ready(function () {
+
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $('.scrollup').fadeIn();
+        } else {
+            $('.scrollup').fadeOut();
+        }
+    });
+
+    $('.scrollup').click(function () {
+        $("html, body").animate({
+            scrollTop: 0
+        }, 600);
+        return false;
+    });
+
+});
+</script>
+
+	</body>
+</html>
