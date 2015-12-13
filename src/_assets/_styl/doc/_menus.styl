@@ -1,0 +1,25 @@
+// ---------------------------
+// +	Doc Menus
+// ---------------------------
+.doc-menu
+	@extend .list-no-bullet
+	margin-bottom: 15px
+	line-height: 1.5
+
+	.doc-menu__link
+		display: block
+		padding: 4px 8px 4px 10px
+		border-left: 1px solid #f9f9f9
+		border-bottom: 1px solid $dark-gray
+		
+		&:hover
+			background: $gray
+			border-left: 1px solid $action-color
+			
+	.doc-menu__link--current
+		background: $dark-gray
+		border-left: 1px solid $action-color
+		
+		&:hover
+			background: $dark-gray
+			border-left: 1px solid $action-color

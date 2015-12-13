@@ -1,0 +1,46 @@
+// ==============================================================
+// == Menu
+// ==============================================================
+
+
+// ---------------------------
+// =	Site menu
+// ---------------------------
+#site-menu
+	//debug()
+	display: flex
+
+	.menu__items
+		display: inline-block
+		left: 0
+		margin: 0
+		
+		.menu__link
+			display: inline-block
+			padding: 3px 8px
+
+
+// ---------------------------
+// =	Vertical menu
+// ---------------------------
+.v-menu
+	//debug()
+	width: auto
+	
+	.menu__items
+		display: block
+		position: relative
+		left: 0
+		
+		.menu__link
+			display: block
+			padding: 3px 8px
+			border-bottom: 1px solid $border-color
+			
+			&:hover
+				color: #fff
+				background: $action-color
+				
+		.menu__link--current
+			color: #fff
+			background: $action-color

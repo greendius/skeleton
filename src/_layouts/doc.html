@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+	<!-- Head -->
+	{% include _head.html %}
+	
+	<body id="doc">
+
+		<div id="doc-wrapper-outer">
+
+			<section class="doc-content-secondary">
+				{% include _header.html %}
+				{% include _content-secondary.html %}
+				{% include _footer.html %}
+			</section>
+
+			<section id="doc-wrapper-main">
+
+				<main class="doc-content-primary">
+
+					<div class="doc-content-container">
+						<h1>{{ page.title }}</h1>
+						{{ content }}
+
+						<!-- <p id="1@#%^-bottom">
+							<a data-scroll data-options='{ "easing": "easeOutCubic" }' href="#doc"><i class="fa fa-arrow-up"></i> Back to the top</a>
+						</p> -->
+						<a href="#" class="scrollup"><i class="fa fa-arrow-up"></i></a>
+					</div>
+
+				</main><!-- /.doc-content-container -->
+				
+			</section><!-- /#wrapper-main -->
+
+		</div><!-- /#wrapper-outer -->
+
+		<!-- Javascript -->
+		{% include _bottom.html %}
+
+	</body>
+</html>

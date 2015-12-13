@@ -1,0 +1,45 @@
+// ---------------------------
+// +	Doc Primary
+// ---------------------------
+.doc-content-primary
+	//overflow-x: hidden
+
+.doc-content-container
+	width: 100%
+	padding: 0 15px
+	
+	+above('l')
+		margin-left: 270px
+		
+		max-width: 980px
+		padding: $spacing
+		
+// ---------------------------
+// +	Doc Secondary
+// ---------------------------
+.doc-content-secondary
+	//debug()
+	width: 100%
+	padding: 0 15px 0 15px
+	
+	font-size: 13px
+	
+	background: #f9f9f9
+	border-right: 1px solid $border-color
+	
+	+above('l')
+		position: fixed
+		z-index: 10
+		
+		width: 250px
+		height: 100%
+		padding: 0 $large-spacing
+		
+		overflow-x: hidden
+		overflow-y: auto
+		
+.panel-demo__heading,
+.panel-doc__heading
+	padding-bottom: 5px
+	margin: $large-spacing 0 $spacing 0
+	border-bottom: 1px solid $dark-gray

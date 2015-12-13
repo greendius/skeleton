@@ -1,0 +1,101 @@
+// ==============================================================
+// ==	Doc
+//		Use in demo/doc site only
+// ==============================================================
+
+@import '_menus.styl'
+@import '_header.styl'
+@import '_footer.styl'
+@import '_content.styl'
+
+
+// ---------------------------
+// +	Colors
+// ---------------------------
+.demo-color
+	position: relative
+	margin: $small-spacing 0
+	
+	display: block
+	
+	width: auto
+	height: 130px
+
+	+above('l')
+		display: inline-block
+		width: 180px
+		
+	p
+		absolute: bottom 10px left 10px
+		padding: 3px 10px
+		margin-bottom 0
+		background-color: rgba( #fff, 0.3 )
+		
+.demo-color--primary
+	background: $primary-color
+	
+.demo-color--secondary
+	background: $secondary-color
+	
+.demo-color--alt
+	background: $alt-color
+	
+.demo-color--bg-color
+	background: $bg-color
+	
+.demo-color--bg-secondary-color
+	background: $secondary-bg-color
+	
+.demo-color--alt
+	background: $alt-color
+	
+// ---------------------------
+// +	Demo layout
+// ---------------------------
+.doc-layout
+	.l-col
+		margin-bottom: $spacing
+		background: #42cafd
+
+		p
+			height: 100px
+			line-height: 100px
+			
+			text-align: center
+			
+			color: #fff
+			background: #22c1fd
+
+	.l-waffle
+		background: #00ff7f 
+		
+		p
+			background: #00e672
+
+
+// ---------------------------
+// +	Scroll to top
+// ---------------------------
+.scrollup
+	faIcon()
+	content: $fa-var-info-circle
+	
+	position: fixed
+	bottom: 20px
+	right: 20px
+	margin-top: 20px
+	
+	display: none
+	
+	width: 40px
+	height: 40px
+	padding-top: 12px
+	
+	text-align: center
+	color: rgba( #fff, .5) !important
+
+	background-color: rgba( $primary-color, .7 )
+	
+	&:hover
+		color: rgba( #fff, 1 ) !important
+		background-color: rgba( $primary-color, 1 )

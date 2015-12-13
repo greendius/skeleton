@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+	<!-- Head -->
+	{% include _head.html %}
+	
+	<body id="skeleton">
+
+		<div id="skeleton-wrapper-outer" class="l-skeleton">			
+
+			<section id="skeleton-wrapper-main">
+
+				<main class="skeleton-content">
+
+					<div class="skeleton-content-container">
+						<h1 id="skeleton-logo">{{ site.title }}</h1>
+						{{ content }}
+
+					</div>
+
+				</main><!-- /.doc-content-container -->
+				
+			</section><!-- /#wrapper-main -->
+
+		</div><!-- /#wrapper-outer -->
+
+		<!-- Javascript -->
+		{% include _bottom.html %}
+
+	</body>
+</html>

@@ -1,0 +1,25 @@
+# Dependencies
+markdown: redcarpet
+highlighter: pygments
+
+# Setup
+name: Skeleton Jekyll Gulp Starter Kit
+title: "Skeleton+"
+tagling: ""
+description: ""
+
+source: src
+destination: web
+baseurl: ""
+
+version: alpha
+
+permalink: pretty
+
+# Others
+author:
+  name: "K Worapon"
+  url: ""
+
+github:
+  repo: ""

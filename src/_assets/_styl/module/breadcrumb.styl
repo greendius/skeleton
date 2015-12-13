@@ -1,0 +1,25 @@
+// ==============================================================
+// ==	Breadcrumbs
+// ==============================================================
+
+/* $character
+    	The character that divides the list items. Default is '/'.
+	$spacing
+    	How much space between each item. Default is 10px.
+	$divider-color
+    	Color of the list item divider. Default is #CDCDCD
+   */
+.breadcrumb
+	breadcrumb()
+	cf()
+	width: auto
+	
+	.breadcrumb__items
+		position: relative
+		left: 0
+		
+		padding-right: 0
+		font-size: .8rem
+		
+	.breadcrumb__items--current
+		color: $mute-font-color
