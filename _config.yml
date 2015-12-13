@@ -10,7 +10,12 @@ description: ""
 
 source: src
 destination: web
-baseurl: ""
+# Local Development
+# baseurl: ""
+
+# Publishing
+baseurl: "http://greendius.github.io/skeleton" # the subpath of your site, e.g. /blog/
+# url: "http://greendius.github.io/skeleton/" # the base hostname & protocol for your site
 
 version: alpha
 
